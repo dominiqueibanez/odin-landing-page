@@ -1,0 +1,221 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Part */
+
+.navbar {
+    display: flex;
+    color: #202020;
+    background-color: #FFFFFF;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #202020;
+    font-size: 28px;
+    padding: 24px;
+    font-family: "BloomingElegant";
+}
+
+/* Hero Part */
+
+.hero {
+    display: flex;
+    color: #202020;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta {
+    flex-basis: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero-cta p {
+    font-family: "Merriweather";
+    opacity: 0.7;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 54px;
+    font-style: normal;
+    color: #202020;
+    margin: 0;
+    font-family: "Merriweather";
+}
+
+.hero button {
+    display: block;
+    height: 65px;
+    width: 200px;
+    border: none;
+    
+    background: #202020;
+    padding: 0px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Merriweather";
+    font-size: 16px;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.hero-image img {
+    width: 450px;
+    height: 450px;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #202020;
+  }
+
+/* Content Part */
+
+.content {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content-info {
+    display: flex;
+    /* border: 1px solid gold; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /*border: 4px solid #3882F6;*/
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Quotation Part */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 300px;
+    margin-top: 30px;
+    background-image: url("assets/pic-2 .jpg");
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: "Merriweather",sans-serif;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: "Merriweather",sans-serif;
+    text-align: right;
+}
+
+/* Sign Up Part */
+.sign-up {
+    background-color: #FFFFFF ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #202020;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #202020;
+    font-family: "Merriweather",sans-serif;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: "BloomingElegant.otf";
+    border-radius: 4px;
+    background-color: #202020;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #202020;
+    color: #fff;
+    font-family: "BloomingElegant";
+}
+
+@font-face {
+    font-family: BloomingElegant;
+    src: url("fonts/BloomingElegant.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BloomingElegantBold;
+    font-weight: bold;
+    src: url("fonts/BloomingElegantBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url("fonts/Merriweather.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MerriweatherLight;
+    font-weight: bold;
+    src: url("fonts/MerriweatherLight.ttf") format("truetype");
+}
